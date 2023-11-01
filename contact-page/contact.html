@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/contact-page/contact.css"/>
+    <link rel="stylesheet" href="/global.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Space+Mono&display=swap" rel="stylesheet">
+    <title>MLA Contact</title>
+</head>
+
+<header>
+   <div class="navbar">
+        <ul>
+            <li class="nav-item"><a href="/index.html">Home</a></li>
+            <li class="nav-item"><a href="/products-page/products.html">MLA Products</a></li>
+            <li class="nav-item"><a href="/contact-page/contact.html">Contact</a></li>
+        </ul>
+    </div>
+</header>
+
+<body>
+    <main>
+        <div class="pre-form">
+            <h1 class="contact-title">Contact Us/Custom Order</h1>
+            <h2 class="contact-thank">Thank you for visiting our page!</h2>
+            <p class="contact-p">Need to contact us? Please fill out the form below completely. A response will be sent no later than 24 hours after form submission.</p>
+            <p class="contact-p">To place a <strong>Custom Order</strong> please fill out the message box with as much detail as possible. If clothing, please take a look at our <a href="/extras/size.html">Sizing Chart</a> and include your measurements.</p>
+            <p class="contact-p">Turn around time for <strong>Custom Orders</strong> is about 2-3 weeks.</p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+            <form id="form" action="/contact-page/contact.html">
+                <div class="row">
+                    <label class="form-section">First Name</label><br>
+                    <input id="first_name" type="text" class="validate">
+                    <div class="error"></div>
+                </div>
+                <div class="row">
+                    <label class="form-section">Last Name</label><br>
+                    <input id="last_name" type="text" class="validate">
+                    <div class="error"></div>
+                </div>
+                <div class="row">
+                    <label class="form-section">Email</label> <br>
+                    <input id="email" type="text" class="validate">
+                    <div class="error"></div>
+                </div>
+                <div class="row">
+                    <label class="form-section">Reason for contact</label>
+                    <br>
+                  <label>
+                    <input name="group1" id="radio" type="radio"/>
+                    <span>Custom Order</span>
+                  </label>
+                    <br>
+                  <label>
+                    <input name="group1" id="radio" type="radio"/>
+                    <span>Issue With Order</span>
+                  </label>
+                    <br>
+                  <label>
+                    <input name="group1" id="radio" type="radio"/>
+                    <span>Contact MLA</span>
+                  </label>
+                    <br>
+                  <label>
+                    <input name="group1" id="radio" type="radio"/>
+                    <span>Other</span>
+                  </label>
+                  <div class="error"></div>
+                </div>
+                <div class="row">
+                    <label class="form-section">Message (optional)</label>
+                        <br>
+                    <textarea placeholder="" id="textarea1"></textarea>
+                    <div class="error"></div>
+                </div>
+            </div>
+            <div class="row">
+                <label class="form-section">Sign up for our Newsletter</label>
+                <input type="checkbox">
+                <span>Yes</span>
+            </div>
+            <div class="row">
+                <button class="submit-btn" type="submit" name="action">Submit</button>
+            </div>
+            </form>
+
+          </div>
+        </div>
+    
+    
+    </main>
+
+    <footer>
+        <div class="footer-main">
+
+            <h2 class="quick-links">Quick Links</h2>
+            <ul class="quick-links__list">
+                <a href="/index.html"><li>Home</li></a>
+                <a href="/products-page/products.html"><li>Shop</li></a>
+                <a href="/contact-page/contact.html"><li>Custom Order</li></a>
+                <a href="/extras/size.html"><li>Size Chart</li></a>
+                <a href="/extras/about.html"><li>About MLA</li></a>
+            </ul>
+
+            <h2 class="imp-info">Important Info</h2>
+            <ul class="imp-info__list">
+                <a href="/contact-page/contact.html"><li>Contact</li></a>
+                <a href="/extras/return.html"><li>Return Policy</li></a>
+                <a href="https://www.instagram.com/mlacrochet/" target="_blank"><li>Instagram</li></a>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="contact.js"></script>
+    <script src="global.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     
+</body>
+
+</html>

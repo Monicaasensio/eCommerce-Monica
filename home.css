@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+}
+
+.business-name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 55px;
+    font-style: oblique;
+    font-weight: 900;
+    padding-bottom: 0;
+    color: indianred;
+    text-shadow: 3px 3px 3px #fff;
+    font-family: oswald;
+}
+
+.business-motto {
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 35px;
+    color: #008B8B;
+    text-shadow: 3px 3px 3px #fff;
+}
+
+.reviews h3 {
+    font-size: 32px;
+    text-shadow: 3px 3px 3px #fff;
+    margin: 40px auto;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 5% 0%;
+    width: 100%;
+}
+
+.review-container {
+    display: block;
+    text-align: center;
+}
+
+.review-container button{
+    padding: 10px;
+    width: 100px;
+    margin: 10px auto;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+.review-container button:hover {
+    background-color: indianred;
+    color: #fff;
+}
+
+.review-img {
+      width: 100%;  
+      object-fit: contain;
+      height: 250px;
+      border-radius: 70%;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 15px;
+    margin: 0px 15px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+.icons {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.icons h3 {
+    color: indianred;
+    text-shadow: 3px 3px 3px #fff;
+    font-size: 36px;
+}
+
+.icons img {
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+/* slider css */
+.slider {
+    max-width: 300px;
+    position: relative;
+    margin: 0 auto 30px;
+}
+
+.slider img {
+    width: 100%;
+    border-radius: 2%;
+    box-shadow: 10px 10px 10px 10px rgb( 0, 0, 0, 0.5);
+}
+
+.fade {
+    animation: fade 2s infinite;
+}
+
+@keyframes fade {
+    from {opacity: 0.5;}
+    to {opacity: 1;}
+}
+
+
+/* designed for mobile */
+
+/* ipads & tablets */
+@media screen and (min-width: 481px) and (max-width: 786px) {
+    .business-name {
+        margin-top: 35px;
+        margin-bottom: 25px;
+        font-size: 80px;
+    }
+    
+    .business-motto {
+        margin-bottom: 45px;
+        font-size: 65px;
+    }
+
+    .slider {
+        max-width: 400px;
+    }
+    
+    .reviews h3 {
+        font-size: 40px;
+        margin-bottom: 45px;
+    }
+
+    .review-img {
+        height: 280px;
+    }
+
+    .review-container button {
+        width: 120px;
+    }
+
+    .icons h3 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    .icons {
+        display: inline-block;
+    }
+
+    .icons img {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+/* small screens & laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .business-name {
+        margin-top: 35px;
+        margin-bottom: 25px;
+        font-size: 85px;
+    }
+    
+    .business-motto {
+        margin-bottom: 45px;
+        font-size: 70px;
+    }
+
+    .slider {
+        max-width: 500px;
+    }
+    
+    .reviews h3 {
+        font-size: 55px;
+        margin-bottom: 43px;
+    }
+
+    .review-img {
+        height: 320px;
+    }
+
+    .review-container button {
+        width: 140px;
+    }
+
+    .icons h3 {
+        font-size: 55px;
+        margin-bottom: 25px;
+    }
+
+    .icons {
+        display: inline-block;
+    }
+
+    .icons img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+/* desktops & large screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .business-name {
+        margin-top: 35px;
+        margin-bottom: 25px;
+        font-size: 85px;
+    }
+    
+    .business-motto {
+        margin-bottom: 45px;
+        font-size: 70px;
+    }
+
+    .slider {
+        max-width: 500px;
+    }
+    
+    .reviews h3 {
+        font-size: 55px;
+        margin-bottom: 43px;
+    }
+
+    .review-img {
+        height: 350px;
+    }
+
+    .review-container button {
+        width: 160px;
+    }
+
+    .icons h3 {
+        font-size: 55px;
+        margin-bottom: 25px;
+    }
+
+    .icons {
+        display: inline-block;
+    }
+
+    .icons img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+/* extra large screens & tvs */
+@media screen and (min-width: 1201px) {
+    .business-name {
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-size: 100px;
+    }
+    
+    .business-motto {
+        margin-bottom: 55px;
+        font-size: 80px;
+    }
+
+    .slider {
+        max-width: 700px;
+    }
+    
+    .reviews h3 {
+        font-size: 70px;
+        margin-bottom: 40px;
+    }
+
+    .review-img {
+        height: 400px;
+    }
+
+    .review-container button {
+        width: 180px;
+    }
+
+    .icons h3 {
+        font-size: 70px;
+    }
+
+    .icons {
+        display: inline-block;
+        margin-bottom: 25px;
+    }
+
+    .icons img {
+        width: 200px;
+        height: 200px;
+    }
+}

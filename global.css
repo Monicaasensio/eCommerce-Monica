@@ -1,0 +1,361 @@
+* {
+    background-color: #ADD8E6;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.logo img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+header {
+    max-height: 100%;
+}
+
+.hero-inner {
+    width: 50%;
+    height: 10%;
+    position: static;
+    top: 10%;
+    right: 0%;
+    background: none;
+    text-align: center;
+    margin: auto;
+}
+
+.hero-logo p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background: none;
+    color: indianred;
+    font-style: oblique;
+    font-weight: 700;
+    text-shadow: 3px 3px 3px #fff;
+}
+
+.hero-logo button {
+    display: block;
+    width: 100px;
+    padding: 1rem;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: indianred;
+    background-color: rgb(253, 212, 218);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 3px solid #008B8B;
+    border-radius: 20px;
+}
+
+.hero-logo a {
+    text-decoration: none;
+}
+
+.hero-logo button:hover {
+    background-color: #fff;
+}
+
+.navbar {
+    position: fixed; 
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar ul {
+    background-color: #008B8B;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-item, .nav-item a {
+    display: inline; 
+    text-decoration: none;
+    background-color: #008B8B;
+    padding: 10px;
+    color: antiquewhite;
+    font-weight: 600;
+}
+
+.nav-item a:hover {
+    background-color: #ADD8E6;
+    color: #008B8B;
+}
+
+.footer-main li, .footer-main a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer-main ul, .footer-main li, .footer-main h2 {
+    background-color: #008B8B;
+    padding: 10px;
+    color: #fff;
+}
+
+.footer-main {
+    display: inline;
+    text-align: center;
+    position: relative;
+    margin: 60px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* designed for mobile */
+
+/* ipads & tablets */
+@media screen and (min-width: 481px) and (max-width: 786px) {
+    .logo img {
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .hero-inner {
+        width: 30%;
+        height: 10%;
+        top: 10%;
+        right: 0%;
+    }
+    
+    .hero-logo p {
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+        text-shadow: 3px 3px 3px #fff;
+    }
+    
+    .hero-logo button {
+        width: 100px;
+        padding: 1 1.5rem;
+        margin-top: 10px;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+    .navbar ul {
+        padding: 20px;
+        font-size: 24px;
+    }
+
+    .footer-main ul, .footer-main li, .footer-main h2 {
+        padding: 14px;
+    }
+
+    .footer-main h2 {
+        font-size: 28px;
+    }
+
+    .footer-main ul {
+        font-size: 20px;
+    }
+}
+
+/* small screens & laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .logo img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .hero-inner {
+        width: 30%;
+        height: 10%;
+        top: 10%;
+        right: 0%;
+    }
+    
+    .hero-logo p {
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+        text-shadow: 3px 3px 3px #fff;
+    }
+    
+    .hero-logo button {
+        width: 100px;
+        padding: 1 1.5rem;
+        margin-top: 10px;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+    .navbar ul {
+        padding: 30px;
+        font-size: 36px;
+    }
+
+    .footer-main ul, .footer-main li, .footer-main h2 {
+        padding: 16px;
+    }
+
+    .footer-main h2 {
+        font-size: 36px;
+    }
+
+    .footer-main ul {
+        font-size: 28px;
+    }
+}
+
+/* desktops & large screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .logo {
+        display: none;
+    }
+
+    .navbar ul {
+        padding: 30px;
+        font-size: 42px;
+    }
+
+    .footer-main ul, .footer-main li, .footer-main h2 {
+        padding: 18px;
+    }
+
+    .footer-main h2 {
+        font-size: 38px;
+    }
+
+    .footer-main ul {
+        font-size: 24px;
+    }
+
+    .hero-logo {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: url(https://mla-crochet.monicaasensio.repl.co/Images/MLACrochetHeader.jpeg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .hero-inner {
+        width: 20%;
+        height: 20%;
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        background: none;
+        text-align: center;
+    }
+    
+    .hero-logo p {
+        font-size: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        background: none;
+        color: indianred;
+        font-style: oblique;
+        font-weight: 700;
+        text-shadow: 3px 3px 3px #fff;
+    }
+    
+    .hero-logo button {
+        display: block;
+        width: 200px;
+        padding: 1rem;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        color: indianred;
+        background-color: rgb(253, 212, 218);
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: 400;
+        border: 3px solid #008B8B;
+        border-radius: 20px;
+    }
+}
+
+/* extra large screens & tvs */
+@media screen and (min-width: 1201px) {
+    .logo img {
+        display: none;
+    }
+
+    .navbar ul {
+        padding: 30px;
+        font-size: 56px;
+    }
+
+    .footer-main ul, .footer-main li, .footer-main h2 {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .footer-main h2 {
+        font-size: 36px;
+    }
+
+    .footer-main ul {
+        font-size: 24px;
+    }
+
+    .hero-logo {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: url(https://mla-crochet.monicaasensio.repl.co/Images/MLACrochetHeader.jpeg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .hero-inner {
+        width: 20%;
+        height: 20%;
+        position: absolute;
+        bottom: 15%;
+        right: 8%;
+        background: none;
+        text-align: center;
+    }
+    
+    .hero-logo p {
+        font-size: 4rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        background: none;
+        color: indianred;
+        font-style: oblique;
+        font-weight: 700;
+        text-shadow: 3px 3px 3px #fff;
+    }
+    
+    .hero-logo button {
+        display: block;
+        width: 200px;
+        padding: 1rem;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        color: indianred;
+        background-color: rgb(253, 212, 218);
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: 400;
+        border: 3px solid #008B8B;
+        border-radius: 20px;
+    }
+}

@@ -1,0 +1,154 @@
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-style: oblique;
+    font-weight: 900;
+    padding-bottom: 0;
+    color: indianred;
+    text-shadow: 3px 3px 3px #fff;
+    font-family: oswald;
+    margin: 70px auto 30px;
+}
+
+.return-policy {
+    display: block;
+    margin: auto;
+    width: 90%;
+    font-size: 1rem;
+}
+
+.return-policy p {
+    font-size: 1.2rem;
+}
+
+.return-policy h2 {
+    color: indianred;
+    margin: 20px;
+}
+
+.return-policy button {
+    padding: 10px;
+    background-color: #008B8B;
+    color: antiquewhite;
+    display: block;
+    margin: 30px auto; 
+    font-size: 14px;
+}
+
+.return-policy a {
+    text-decoration: none;
+}
+
+.return-policy button:hover {
+    background-color: indianred;
+}
+
+/* ipads & tablets */
+@media screen and (min-width: 481px) and (max-width: 786px) {
+    h1 {
+        font-size: 56px;
+        margin: 90px auto 30px;
+    }
+
+    .return-policy {
+        width: 90%;
+        font-size: 1.2rem;
+    }
+    
+    .return-policy p {
+        font-size: 1.4rem;
+    }
+    
+    .return-policy h2 {
+        margin: 20px;
+    }
+    
+    .return-policy button {
+        padding: 14px;
+        margin: 30px 0px; 
+        font-size: 16px;
+    }
+    
+}
+
+/* small screens & laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    h1 {
+        font-size: 60px;
+        margin: 120px auto 30px;
+    }
+
+    .return-policy {
+        width: 90%;
+        font-size: 1.4rem;
+    }
+    
+    .return-policy p {
+        font-size: 1.6rem;
+    }
+    
+    .return-policy h2 {
+        margin: 20px;
+    }
+    
+    .return-policy button {
+        padding: 16px;
+        margin: 30px auto; 
+        font-size: 18px;
+    }
+}
+
+/* desktops & large screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    h1 {
+        font-size: 65px;
+        margin: 140px auto 30px;
+    }
+
+    .return-policy {
+        width: 90%;
+        font-size: 1.6rem;
+    }
+    
+    .return-policy p {
+        font-size: 1.8rem;
+    }
+    
+    .return-policy h2 {
+        margin: 20px;
+    }
+    
+    .return-policy button {
+        padding: 18px;
+        margin: 30px auto; 
+        font-size: 20px;
+    }
+
+}
+
+/* extra large screens & tvs */
+@media screen and (min-width: 1201px) {
+    h1 {
+        font-size: 70px;
+        margin: 150px auto 30px;
+    }
+    
+    .return-policy {
+        width: 90%;
+        font-size: 1.8rem;
+    }
+    
+    .return-policy p {
+        font-size: 2rem;
+    }
+    
+    .return-policy h2 {
+        margin: 20px;
+    }
+    
+    .return-policy button {
+        padding: 20px;
+        margin: 30px auto; 
+        font-size: 24px;
+    }
+}

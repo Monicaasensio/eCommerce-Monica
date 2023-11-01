@@ -1,0 +1,267 @@
+.contact-title {
+    text-align: center;
+    font-size: 36px;
+    font-style: oblique;
+    font-weight: 900;
+    padding-bottom: 0;
+    color: indianred;
+    text-shadow: 3px 3px 3px #fff;
+    font-family: oswald;
+    margin: 70px auto 30px;
+}
+
+.contact-thank {
+    text-shadow: 2px 2px 2px #fff;
+    margin-bottom: 10px;
+}
+
+.contact-p {
+    font-style: oblique;
+    margin: 10px;
+}
+
+.contact-p a {
+    text-decoration: none;
+}
+
+form, label, .row, .container, span { 
+    background-color: antiquewhite;
+    font-size: 1rem;
+}
+
+.validate {
+    width: 80%;
+    line-height: 2rem;
+}
+
+.row.success input {
+    border-color: greenyellow;
+}
+
+.row.error input {
+    border-color: red;
+}
+
+.row .error {
+    color: red;
+    font-size: 12px;
+    background-color: antiquewhite;
+}
+
+input, textarea {
+    margin-top: 5px;
+}
+
+.form-section {
+    text-decoration: underline;
+    padding: 5px;
+    font-weight: 600;
+}
+
+textarea {
+    max-width: 300px;
+}
+
+.container {
+    margin:  30px 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 4px solid #fff;
+}
+
+.row { 
+    display: block;
+    margin: 10px auto 0; 
+    max-width: 300px;
+}
+
+.row button {
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+/* designed for mobile */
+
+/* ipads & tablets */
+@media screen and (min-width: 481px) and (max-width: 786px) {
+    .contact-title {
+        font-size: 50px;
+        margin: 90px auto 30px;
+    }
+    
+    .contact-thank {
+        margin-bottom: 12px;
+        font-size: 22;
+    }
+    
+    .contact-p {
+        margin: 12px;
+        font-size: 16px;
+    }
+
+    form, label, .row, .container, span { 
+        font-size: 1.2rem;
+    }
+    
+    .validate {
+        width: 70%;
+        line-height: 1.2rem;
+    }
+    
+    .container {
+        margin: 30px 80px;
+    }
+
+    textarea {
+        min-width: 280px;
+    }
+    
+    .row { 
+        margin: 10px auto;
+        max-width: 400px;
+    }
+    
+    .row button {
+        margin: 20px auto;
+        padding: 8px;
+    }
+}
+
+/* small screens & laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .contact-title {
+        font-size: 55px;
+        margin: 110px auto 30px;
+    }
+    
+    .contact-thank {
+        margin-bottom: 12px;
+        font-size: 24px;
+    }
+    
+    .contact-p {
+        margin: 12px;
+        font-size: 18px;
+    }
+
+    form, label, .row, .container, span { 
+        font-size: 1.4rem;
+    }
+    
+    .validate {
+        width: 80%;
+        line-height: 1.3rem;
+    }
+    
+    .container {
+        margin: 30px 100px;
+    }
+
+    textarea {
+        min-width: 300px;
+    }
+    
+    .row { 
+        margin: 10px auto;
+        max-width: 400px;
+    }
+    
+    .row button {
+        margin: 20px auto;
+        padding: 10px;
+    }
+}
+
+/* desktops & large screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .contact-title {
+        font-size: 60px;
+        margin: 130px auto 30px;
+    }
+    
+    .contact-thank {
+        margin-bottom: 12px;
+        font-size: 26px;
+    }
+    
+    .contact-p {
+        margin: 12px;
+        font-size: 20px;
+    }
+
+    form, label, .row, .container, span { 
+        font-size: 1.6rem;
+    }
+    
+    .validate {
+        width: 80%;
+        line-height: 1.7rem;
+    }
+    
+    .container {
+        margin: 30px 130px;
+    }
+
+    textarea {
+        min-width: 400px;
+    }
+    
+    .row { 
+        margin: 10px auto;
+        max-width: 450px;
+    }
+    
+    .row button {
+        margin: 20px auto;
+        padding: 12px;
+    }
+}
+
+/* extra large screens & tvs */
+@media screen and (min-width: 1201px) {
+    .contact-title {
+        font-size: 70px;
+        margin: 130px auto 30px;
+    }
+    
+    .contact-thank {
+        margin-bottom: 12px;
+        font-size: 30px;
+    }
+    
+    .contact-p {
+        margin: 12px;
+        font-size: 24px;
+    }
+
+    form, label, .row, .container, span { 
+        font-size: 2rem;
+    }
+    
+    .validate {
+        width: 80%;
+        line-height: 1.5rem;
+    }
+    
+    .container {
+        margin: 30px 30%;
+    }
+
+    textarea {
+        min-width: 500px;
+    }
+    
+    .row { 
+        margin: 10px auto;
+        max-width: 500px;
+    }
+    
+    .row button {
+        margin: 20px auto;
+        padding: 12px;
+    }
+}
